@@ -1,5 +1,5 @@
-// Time Complexity :
-// Space Complexity :
+// Time Complexity :O(1) average, O(n) worst case
+// Space Complexity :O(n)
 // Did this code successfully run on Leetcode : Yes
 // Any problem you faced while coding this : I took the help of a 
 // video to understand the concept of hash map and how to implement 
