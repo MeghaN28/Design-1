@@ -66,7 +66,7 @@ class MyHashSet {
     }
     
     public boolean contains(int key) {
-        int bucket = (key % size + size) % size;
+        int bucket = (key % size);
         if (set[bucket] != null) {
             for (Entry e : set[bucket]) {
                 if (e.key == key) return true;
