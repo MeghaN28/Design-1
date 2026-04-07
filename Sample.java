@@ -11,20 +11,7 @@
 
 import java.util.LinkedList;
 
-class Main { 
-    public static void main(String args[]) 
-    { 
-            MyHashSet obj = new MyHashSet();
-            obj.add(1);
-            obj.add(2);
-            System.out.println(obj.contains(1)); // returns true
-            System.out.println(obj.contains(3)); // returns false (not found)
-            obj.add(2);
-            System.out.println(obj.contains(2)); // returns true
-            obj.remove(2);
-            System.out.println(obj.contains(2)); // returns false (already removed)
-    } 
-}
+
 
 class MyHashSet {
     class Entry{

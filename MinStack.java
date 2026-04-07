@@ -65,6 +65,15 @@ class MinStack {
  * int param_3 = obj.top();
  * int param_4 = obj.getMin();
  */
+
+/**
+ * Your MinStack object will be instantiated and called as such:
+ * MinStack obj = new MinStack();
+ * obj.push(val);
+ * obj.pop();
+ * int param_3 = obj.top();
+ * int param_4 = obj.getMin();
+ */
 class Main { 
     public static void main(String args[]) 
     { 
@@ -76,13 +85,14 @@ class Main {
             obj.pop();
             System.out.println(obj.top());    // return 0
             System.out.println(obj.getMin()); // return -2
+            MyHashSet obj1 = new MyHashSet();
+            obj1.add(1);
+            obj1.add(2);
+            System.out.println(obj1.contains(1)); // returns true
+            System.out.println(obj1.contains(3)); // returns false (not found)
+            obj1.add(2);
+            System.out.println(obj1.contains(2)); // returns true
+            obj1.remove(2);
+            System.out.println(obj1.contains(2)); // returns false (already removed)
     } 
 }
-/**
- * Your MinStack object will be instantiated and called as such:
- * MinStack obj = new MinStack();
- * obj.push(val);
- * obj.pop();
- * int param_3 = obj.top();
- * int param_4 = obj.getMin();
- */
